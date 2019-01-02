@@ -23,9 +23,6 @@ Route::get('/lesson', function () {
     return 'lesson';
 });
 
-Route::get('/course', function () {
-    return 'course';
-});
 
 Auth::routes();
 
