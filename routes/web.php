@@ -23,6 +23,10 @@ Route::get('/lesson', function () {
     return 'lesson';
 });
 
+Route::get('/course', function () {
+    return 'course';
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
