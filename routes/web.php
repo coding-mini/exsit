@@ -19,6 +19,10 @@ Route::get('/video', function () {
     return 'video';
 });
 
+Route::get('/lesson', function () {
+    return 'lesson';
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
